@@ -3,13 +3,38 @@ html {
     font-family: "Open Sans", sans-serif;
     }  
 
+body{
+padding:5% 15%
+}
+
 h1 {
     font-size: 60px;
     text-align: center;
     }
 
-p, {
-    font-size: 16px;
+p{
+    font-size: 2rem;
     line-height: 2;
     letter-spacing: 1px;
     }
+
+.date{
+    font-size: 3rem;
+    text-decoration:underline ;
+    }
+
+
+.notes-section{
+    background-color:#fef5c8 ;
+    padding: 10px 5%;
+}
+
+.header-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.the-blorbo{
+    width: 50%;
+}
