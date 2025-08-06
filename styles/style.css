@@ -4,12 +4,14 @@ html {
     }  
 
 body{
-padding:5% 15%
+padding:5% 15% ;
+background-color: #fee187;
 }
 
 h1 {
     font-size: 60px;
     text-align: center;
+    margin: 0;
     }
 
 p{
@@ -18,23 +20,34 @@ p{
     letter-spacing: 1px;
     }
 
-.date{
-    font-size: 3rem;
-    text-decoration:underline ;
-    }
 
-
-.notes-section{
-    background-color:#fef5c8 ;
-    padding: 10px 5%;
-}
-
-.header-img{
+.homepage-comic{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.the-blorbo{
-    width: 50%;
+.homepage-comic-panel{
+    width: 800px;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+.homepage-comic-subpanel{
+    width: 1200px;
+    position: relative;
+    height: 800px;
+}
+
+a .homepage-comic-subpanel-contents{
+    transition: 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+a .homepage-comic-subpanel-contents:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.homepage-comic-subpanel-contents{
+    position: absolute;
 }

@@ -3,29 +3,28 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width"/>
-    <title>Welcome to the Wyrdle Zone</title>
+    <title>Wyrdle Zone</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
     <link href="styles/style.css" rel="stylesheet"/>
   </head>
   <body>
     <h1>Welcome to the Wyrdle Zone!</h1>
-    <span class="header-img">
-      <img src="images/icon.png" alt="Illustration of my bird like monstersona." class="the-blorbo">
-      <button>Change user</button>
-    </span>
-    <span>
-      <h2 class="date">21st October 2023</h2>
-      <p>When Wyrdle has a quarter life crisis and wants to get out of marketing lmao. We're studying how to use HTML, CSS and JS with MDN's very helpful tools. <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash">This</a> is where we left off. Continue forward!</p>
-      <p class="notes-section">For next time, we should look into <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side">Server-side website programming.</a></p>
-      <h2 class="date">23 January 2025</h2>
-      <p>Oops. Took a long while to get back to this. Buuuut the good news is, we're can now run the portfolio site via a local web server. Haven't checked out the server-side website programming mozzila docs yet, but we can now start Apache from XAMPP and open this website at "Portfolio.com". Woo! This also means php, bootstrap etc. are available now.</p>
-      <p>On the other hand, I've started drafting the website's sitemap, with major categories being: Illustration, Comics and Zines, Character design, games and UI design, motion design and animation, and miscellaneous. This sitemap still needs finessing alas. Misc will be for fun personal blogging stuff, or where I link to weirder/whackier projects. We'll also need an about me page of course!</p>
-      <p>Anyway, I've made the necessary folders for those subpages! The portfolio site's main homepage will likely just be a radial menu that redirects to all other sub-pages. They're all barren for now, but the design for the site is still being finessed, as are the selection of projects. I'll be making everything birding themed!</p>
-      <p>Hoffanopic and some others in Five's server also talked about scripting vs compiler languages. For future reference, learning progression after JS should be Python (A script language), and if we ever get to it, C++ (A compiler language) would be useful. </p>
-      <p>Anyway to keep myself motivated:</p>
-      <img src="images/yaoi.png" class="the-blorbo">
-      <p>Some yaoi to keep going.</p>
-    </span>
+    <div class="homepage-comic">
+      <img src="images/intro.png" alt="A drawing" class="homepage-comic-panel">
+      <div class="homepage-comic-subpanel">
+        <img src="images/do_these.png" alt="A drawing" class="homepage-comic-subpanel-contents">
+        <a href="./illustration/"><img src="images/illustration.png" alt="A drawing" class="homepage-comic-subpanel-contents" style="left:500px"></a>
+        <a href="./graphic-design/"><img src="images/graphic design.png" alt="A drawing" class="homepage-comic-subpanel-contents" style="top: 400px;"></a>
+        <a href="./games/"><img src="images/games.png" alt="A drawing" class="homepage-comic-subpanel-contents" style="top: 400px;left: 350px;"></a>
+        <a href="./comics-and-zines/"><img src="images/comics.png" alt="A drawing" class="homepage-comic-subpanel-contents" style="top: 300px; left: 750px;"></a>
+        <img src="images/bubble.png" alt="A drawing" class="homepage-comic-subpanel-contents" style="top: 600px; left: 800px;">
+      </div>
+      <img src="images/events.png" alt="A drawing" class="homepage-comic-panel">
+      <img src="images/contact.png" alt="A drawing" class="homepage-comic-panel">
+    </div>
     <script src="scripts/main.js"></script>
   </body>
+  <footer>
+    <img src="images/seal.png" alt="A drawing">
+  </footer>
 </html>
