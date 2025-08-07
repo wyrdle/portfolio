@@ -1,0 +1,11 @@
+.illustration-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.illustration-gallery-item{
+    height: 45vh;
+    width: fit-content;
+    padding: 4px 4px;
+}
