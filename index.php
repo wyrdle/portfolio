@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="styles/style.css" rel="stylesheet"/>
+  </head>
+  <body>
     <nav class="navbar">
       <div><a href="/">Home</a></div>
       <div><a href="./illustration/">Illustration</a></div>
@@ -15,8 +17,7 @@
       <div><a href="./comics-and-zines/">Comics and Zines</a></div>
       <div><a href="./about/">About</a></div>
     </nav>
-  </head>
-  <body>
+    <div class="page-content">
     <h1>Welcome to the Wyrdle Zone!</h1>
     <div class="homepage-comic">
       <img src="images/intro.png" alt="A drawing" class="homepage-comic-panel">
@@ -30,10 +31,12 @@
       </div>
       <img src="images/events.png" alt="A drawing" class="homepage-comic-panel">
       <img src="images/contact.png" alt="A drawing" class="homepage-comic-panel">
-    </div>
-    <script src="scripts/main.js"></script>
+      <p><a href="mailto:wyrdle.art@gmail.com">wyrdle.art@gmail.com</a></p>
+    </div>  
+</div>
+    <footer>
+      <a href="./seally-time/"><img src="images/seal.png" alt="A drawing"></a>
+    </footer>
   </body>
-  <footer>
-    <img src="images/seal.png" alt="A drawing">
-  </footer>
+
 </html>

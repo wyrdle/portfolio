@@ -4,7 +4,6 @@ html {
     }  
 
 body{
-    padding:5% 15% ;
     background-color: #fee187;
 }
 
@@ -20,6 +19,9 @@ p{
     letter-spacing: 1px;
     }
 
+.page-content{
+        padding:5% 15% ;
+}
 
 .homepage-comic{
     display: flex;
@@ -50,4 +52,8 @@ a .homepage-comic-subpanel-contents:hover{
 
 .homepage-comic-subpanel-contents{
     position: absolute;
+}
+
+footer{
+    background-color: #ffb540;
 }
