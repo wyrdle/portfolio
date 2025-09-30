@@ -4,19 +4,63 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width"/>
     <title>Wyrdle Zone</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="styles/style.css" rel="stylesheet"/>
   </head>
   <body>
     <div class="page-content">
-      <h1>Welcome to the Wyrdle Zone!</h1>
-      <div class="homepage-comic">
-        <img src="images/intro.png" alt="A drawing" class="homepage-comic-panel">
-        <p>Hi there! I'm still in the process of building out my portfolio site, please check out my old portfolio <a href="https://khawannli.myportfolio.com/">here.</a> If you'd like to reach out to me, email me at <a href="mailto:wyrdle.art@gmail.com">wyrdle.art@gmail.com</a>.</p>
-      </div>  
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./illustration/">Illustration</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./graphic-design/">Graphic Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./games/">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./comics-and-zines/">Comics and Zines</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about/">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1>Hi! I'm Ann or Wyrdle!</h1>
+    <div class="homepage-comic">
+      <img src="images/intro.png" alt="A drawing" class="homepage-comic-panel">
+      <div class="homepage-comic-subpanel">
+        <img src="images/do_these.png" alt="A drawing" class="homepage-comic-subpanel-contents">
+        <p class="homepage-comic-subpanel-contents text-box text-box-one">I do a bunch of things, from...</p>
+        <a href="./illustration/"><img src="images/illustration.png" alt="A drawing" class="homepage-comic-subpanel-contents subpanel-illo"></a>
+        <a href="./comics-and-zines/"><img src="images/comics.png" alt="A drawing" class="homepage-comic-subpanel-contents subpanel-comics"></a>
+        <a href="./graphic-design/"><img src="images/graphic design.png" alt="A drawing" class="homepage-comic-subpanel-contents subpanel-gd"></a>
+        <a href="./games/"><img src="images/games.png" alt="A drawing" class="homepage-comic-subpanel-contents subpanel-games"></a>
+        <img src="images/bubble.png" alt="A drawing" class="homepage-comic-subpanel-contents bubble-one">
+        <p class="homepage-comic-subpanel-contents text-box text-box-two">...and whatever creative pursuit my heart fancies!</p>
+      </div>
+      <img src="images/events.png" alt="A drawing" class="homepage-comic-panel">
+      <img src="images/contact.png" alt="A drawing" class="homepage-comic-panel">
+      <p><a href="mailto:wyrdle.art@gmail.com">wyrdle.art@gmail.com</a></p>
+    </div>  
     </div>
+    <footer>
+    <a href="./seally-time/"><img src="images/seal.png" alt="A drawing"></a>
+    </footer>
     <script src="/scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
   
 </html>

@@ -1,16 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --bg-yellow: #fee187;
+    --med-yellow: #ffb540;
+    --brown: #82390e;
+    --dark-text: #141414;
+
+}
+
 html {
     font-size: 10px;
-    font-family: "Open Sans", sans-serif;
+    color: var(--dark-text);
+    font-family: 'Open Sans', sans-serif;
     }  
 
 body{
-    background-color: #fee187;
+    background-color: var(--bg-yellow);
 }
 
 h1 {
     font-size: 60px;
     text-align: center;
     margin: 0;
+    font-family: 'Sour Gummy', sans-serif;
     }
 
 p{
@@ -19,10 +32,47 @@ p{
     letter-spacing: 1px;
     }
 
+a{
+    color: var(--dark-text)
+}
+
+a:hover{
+    color: var(--brown)
+}
+
 .page-content{
         padding:5% 15% ;
 }
 
+/* Styling Navbar */
+#navbarNav{
+    justify-content: center;
+}
+
+.navbar-nav{
+    column-gap: 15px;
+}
+
+.nav-item{
+    font-family: 'Sour Gummy', sans-serif;
+    font-size: 2rem;
+    background-color: var(--med-yellow);
+}
+
+.navbar-toggler{
+    background-color: var(--med-yellow);
+    border: 1px solid var(--dark-orange);
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+/* Styling allllll the itty bitty comic panels one by one. */
 .homepage-comic{
     display: flex;
     align-items: center;
@@ -46,12 +96,62 @@ a .homepage-comic-subpanel-contents{
 }
 
 a .homepage-comic-subpanel-contents:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     cursor: pointer;
 }
 
 .homepage-comic-subpanel-contents{
     position: absolute;
+}
+
+.text-box{
+    font-family: 'Sour Gummy', sans-serif
+}
+
+.text-box-one{
+    left: 370px;
+    top: 50px;
+    width: 200px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.subpanel-illo{
+    width: 650px;
+    left: 560px;
+    top: 65px;
+}
+
+.subpanel-gd{
+    top: 342px;
+    width: 380px;
+    left: 840px;
+}
+
+.subpanel-games{
+    top: 458px;
+    left: -8px;
+    width: 400px; 
+}
+
+.subpanel-comics{
+    top: 405px;
+    left: 370px;
+    width: 450px;
+}
+
+.bubble-one{
+    top: 643px;
+    left: 869px;
+    width: 355px;
+}
+
+.text-box-two{
+    top: 690px;
+    text-align: center;
+    line-height: 1.2;
+    width: 300px;
+    left: 900px;
 }
 
 footer{
