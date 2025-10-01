@@ -10,7 +10,7 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 0.8rem;
     color: var(--dark-text);
     font-family: 'Open Sans', sans-serif;
     }  
@@ -109,8 +109,8 @@ a .homepage-comic-subpanel-contents:hover{
 }
 
 .text-box-one{
-    left: 370px;
-    top: 50px;
+    left: 375px;
+    top: 45px;
     width: 200px;
     text-align: center;
     line-height: 1.2;
@@ -141,17 +141,75 @@ a .homepage-comic-subpanel-contents:hover{
 }
 
 .bubble-one{
-    top: 643px;
-    left: 869px;
-    width: 355px;
+    top: 633px;
+    left: 860px;
+    width: 401px;
 }
 
 .text-box-two{
-    top: 690px;
+    top: 682px;
     text-align: center;
     line-height: 1.2;
-    width: 300px;
+    width: 326px;
     left: 900px;
+}
+
+.text-box-three{
+    top: 50px;
+    width: 22%;
+    text-align: center;
+    line-height: 1.2;
+    left: 65px;
+}
+
+.text-box-four{
+    width: 25%;
+    text-align: center;
+    line-height: 1.2;
+    left: 450px;
+    font-weight: 800;
+    text-transform: uppercase;
+    top: 80px;
+}
+
+.text-box-five{
+    top: 158px;
+    width: 27%;
+    line-height: 1.4;
+    left: 437px;
+    font-size: 1.8rem;
+}
+
+.text-box-six{
+    top: 50px;
+    width: 22%;
+    text-align: center;
+    line-height: 1.2;
+    left: 860px;
+}
+
+.text-box-seven{
+    top: 120px;
+    width: 25%;
+    text-align: center;
+    line-height: 1.2;
+    left: 725px;
+}
+
+.text-box-eight{
+    top: 280px;
+    width: 25%;
+    text-align: center;
+    line-height: 1.2;
+    left: 725px;
+}
+
+.mail-icon{
+    top: 161px;
+    width: 120px;
+    text-align: center;
+    line-height: 1.2;
+    left: 820px;
 }
 
 footer{
