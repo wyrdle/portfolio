@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
     --bg-yellow: #fee187;
@@ -12,7 +13,7 @@
 html {
     font-size: 0.8rem;
     color: var(--dark-text);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     }  
 
 body{
@@ -27,9 +28,8 @@ h1 {
     }
 
 p{
-    font-size: 2rem;
-    line-height: 2;
-    letter-spacing: 1px;
+    font-size: 1.4rem;
+    line-height: 1.5;
     }
 
 a{
@@ -72,6 +72,19 @@ a:hover{
     background-size: 100%;
 }
 
+.paragraph-content-image{
+    width: 60%;
+}
+
+.paragraph-content{
+    width: 40%;
+}
+
+.flex-paragraph-content{
+    display: flex;
+    flex-direction: row;
+}
+
 /* Styling allllll the itty bitty comic panels one by one. */
 .homepage-comic{
     display: flex;
@@ -105,7 +118,9 @@ a .homepage-comic-subpanel-contents:hover{
 }
 
 .text-box{
-    font-family: 'Sour Gummy', sans-serif
+    font-family: 'Sour Gummy', sans-serif;
+    font-size: 2rem;
+    line-height: 2;
 }
 
 .text-box-one{
