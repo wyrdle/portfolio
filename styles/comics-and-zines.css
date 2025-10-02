@@ -15,12 +15,17 @@
     display: block;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .comic-display{
     display:flex;
     flex-direction:column;
     align-items: center;
+}
+
+.comic-preview{
+    width:100%;
 }
 
 .comic-page-portrait{
