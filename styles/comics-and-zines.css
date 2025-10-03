@@ -5,17 +5,23 @@
 }
 
 .comic-container{
-    height:400px;
+    height:500px;
     width: 400px;
-    background-color: blanchedalmond;
     margin: 4px 4px;
 }
 
 .comic-container a{
-    display: block;
+    display: flex;
     width: 100%;
     height: 100%;
     overflow: hidden;
+    justify-content: center;
+}
+
+.comic-container img{
+    align-self: center;
+    width: 100%;
+    height: fit-content;
 }
 
 .comic-display{

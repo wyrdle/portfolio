@@ -5,16 +5,24 @@
 }
 
 .project-container{
-    height:400px;
-    width: 400px;
+    height:300px;
+    width: 600px;
     background-color: blanchedalmond;
     margin: 4px 4px;
 }
 
 .project-container a{
-    display: block;
+    display: flex;
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.project-container img{
+    align-self: center;
+    width: 100%;
+    height: fit-content;
 }
 
 .project-display{
@@ -23,7 +31,6 @@
     align-items: center;
 }
 
-.comic-page-portrait{
-    width:50%;
-    height:auto;
+.project-preview{
+    width:100%;
 }
