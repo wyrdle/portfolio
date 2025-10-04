@@ -74,6 +74,9 @@ a:hover{
 
 .paragraph-content-image{
     width: 60%;
+    overflow: hidden;
+    align-self: center;
+    margin-right: 20px;
 }
 
 .paragraph-content{
