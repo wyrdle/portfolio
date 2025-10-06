@@ -88,6 +88,32 @@ a:hover{
     flex-direction: row;
 }
 
+footer{
+    padding: 4% ;
+    background-color: var(--med-yellow);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sour Gummy', sans-serif;
+    font-size: 2rem;
+    list-style-type: none; 
+}
+
+.secret-bonus{
+    position: absolute;
+    right: 0;
+    height: 70%;
+}
+
+.socials i{
+    background-color: var(--bg-yellow);
+}
+
 /* Styling allllll the itty bitty comic panels one by one. */
 .homepage-comic{
     display: flex;
@@ -228,8 +254,4 @@ a .homepage-comic-subpanel-contents:hover{
     text-align: center;
     line-height: 1.2;
     left: 820px;
-}
-
-footer{
-    background-color: #ffb540;
 }
