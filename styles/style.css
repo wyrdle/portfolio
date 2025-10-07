@@ -72,20 +72,53 @@ a:hover{
     background-size: 100%;
 }
 
+.content-segment {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
 .paragraph-content-image{
-    width: 60%;
+    width: 30%;
     overflow: hidden;
     align-self: center;
     margin-right: 20px;
 }
 
+.paragraph-content-image img , .paragraph-content-image-alt img{
+    width: 100%;
+}
+
 .paragraph-content{
-    width: 40%;
+    width: 70%;
+}
+
+.paragraph-content-image-alt{
+    width: 30%;
+    overflow: hidden;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.paragraph-content-alt{
+    width: 70%;
+    display: flex;
+    align-items: center;
 }
 
 .flex-paragraph-content{
     display: flex;
     flex-direction: row;
+}
+
+.tri-column-content{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 50px;
+    justify-content: center;
+}
+
+.tri-column-content img{
+    width: 100%;
 }
 
 footer{
