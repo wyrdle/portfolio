@@ -102,6 +102,7 @@ footer{
     font-family: 'Sour Gummy', sans-serif;
     font-size: 2rem;
     list-style-type: none; 
+    padding: 0;
 }
 
 .secret-bonus{
@@ -111,7 +112,12 @@ footer{
 }
 
 .socials i{
+    color: var(--brown);
+    font-size: 30px;
     background-color: var(--bg-yellow);
+    padding: 10px;
+    border-radius: 5px;
+    width: 50px;
 }
 
 /* Styling allllll the itty bitty comic panels one by one. */
