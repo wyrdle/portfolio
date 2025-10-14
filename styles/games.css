@@ -17,12 +17,44 @@
     height: 100%;
     overflow: hidden;
     justify-content: center;
+    position: relative;
 }
 
 .project-container img{
     align-self: center;
     width: 100%;
     height: fit-content;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #2f820ec5;
+}
+
+.project-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-text{
+    font-family: 'Sour Gummy', sans-serif;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    line-height: 1;
+    padding: 30px;
 }
 
 .project-display{
