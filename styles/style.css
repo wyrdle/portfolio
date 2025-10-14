@@ -152,6 +152,8 @@ a:hover::before{
 .project-breadcrumbs{
     margin-bottom: 0;
     width: fit-content;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
 }
 
 .project-breadcrumbs p{
@@ -162,6 +164,8 @@ a:hover::before{
 
 .project-sheet{
     background-color: white;
+    border-radius: 0 5px 5px 5px;
+    overflow: hidden;
 }
 
 .content-segment {
@@ -172,9 +176,33 @@ a:hover::before{
 .project-page-summary-container{
     background-color: var(--med-yellow);
     width: 100%;
-    padding: 20px;
+    height: 50vh;
     margin-bottom: 20px;
     display: flex;
+    justify-content: space-between;
+}
+
+.critical-information{
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.critical-information h1{
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.splash-header{
+    width:70%; 
+    overflow:hidden;
+}
+
+.splash-header img{
+    -webkit-mask-image: -webkit-gradient(linear, left, right, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    mask-image: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0));
+    width: 100%;
 }
 
 .paragraph-content-image{
