@@ -353,6 +353,7 @@ a .homepage-comic-subpanel-contents:hover{
     font-family: 'Sour Gummy', sans-serif;
     font-size: 2rem;
     line-height: 2;
+    z-index: 1;
 }
 
 .text-box-one{
@@ -361,12 +362,14 @@ a .homepage-comic-subpanel-contents:hover{
     width: 200px;
     text-align: center;
     line-height: 1.2;
+    z-index: 1;
 }
 
 .subpanel-illo{
     width: 650px;
     left: 560px;
     top: 65px;
+    z-index:0;
 }
 
 .subpanel-gd{
@@ -403,7 +406,7 @@ a .homepage-comic-subpanel-contents:hover{
     line-height: 1.2;
     width: 326px;
     left: 900px;
-    z-index:0;
+    z-index: 1;
 }
 
 .text-box-three{
@@ -412,6 +415,7 @@ a .homepage-comic-subpanel-contents:hover{
     text-align: center;
     line-height: 1.2;
     left: 65px;
+    z-index: 1;
 }
 
 .text-box-four{
@@ -422,6 +426,7 @@ a .homepage-comic-subpanel-contents:hover{
     font-weight: 800;
     text-transform: uppercase;
     top: 80px;
+    z-index: 1;
 }
 
 .text-box-five{
@@ -430,6 +435,7 @@ a .homepage-comic-subpanel-contents:hover{
     line-height: 1.4;
     left: 437px;
     font-size: 1.8rem;
+    z-index: 1;
 }
 
 .text-box-six{
@@ -438,6 +444,7 @@ a .homepage-comic-subpanel-contents:hover{
     text-align: center;
     line-height: 1.2;
     left: 860px;
+    z-index: 1;
 }
 
 .text-box-seven{
@@ -446,6 +453,7 @@ a .homepage-comic-subpanel-contents:hover{
     text-align: center;
     line-height: 1.2;
     left: 725px;
+    z-index: 1;
 }
 
 .text-box-eight{
