@@ -6,6 +6,8 @@
 
 .illustration-container{
     position: relative;
+    overflow: hidden;
+    margin: 4px 4px;
 }
 
 .overlay {
@@ -19,10 +21,13 @@
     opacity: 0;
     transition: .5s ease;
     background-color: #ffb640e5;
+    transform: translateX(-50px);
 }
 
 .illustration-container:hover .overlay {
     opacity: 1;
+    transform: translateX(0px);
+    transform-origin: left;
 }
 
 .overlay-text{
@@ -42,5 +47,4 @@
 .illustration-gallery-item{
     height: 45vh;
     width: fit-content;
-    margin: 4px 4px;
 }

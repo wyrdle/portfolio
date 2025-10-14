@@ -10,6 +10,7 @@
     background-color: blanchedalmond;
     margin: 4px 4px;
     position: relative;
+    overflow: hidden;
 }
 
 .project-container a{
@@ -37,10 +38,13 @@
     opacity: 0;
     transition: .5s ease;
     background-color: #df402be5;
+    transform: translateX(-50px);
 }
 
 .project-container:hover .overlay {
     opacity: 1;
+    transform: translateX(0px);
+    transform-origin: left;
 }
 
 .overlay-text{
