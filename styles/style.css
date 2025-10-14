@@ -82,7 +82,7 @@ a:hover::before{
 }
 
 .page-content{
-        padding:5% 15% ;
+        padding:3% 15% ;
 }
 
 /* Styling Navbar */
@@ -91,8 +91,9 @@ a:hover::before{
 }
 
 .navbar{
-    padding:0;
-    margin-bottom: 20px;
+    padding: 30px;
+    margin-bottom: 0;
+    background-color: var(--med-yellow);
 }
 
 .navbar-nav{
@@ -102,7 +103,6 @@ a:hover::before{
 .nav-item{
     font-family: 'Sour Gummy', sans-serif;
     font-size: 2rem;
-    background-color: var(--med-yellow);
     border-radius: 5px;
     text-align: center;
     transition: 0.3s ease-in-out;
@@ -137,11 +137,44 @@ a:hover::before{
     height:100%
 }
 
-/* Styling Content segments */
+.warning{
+    background-color: yellowgreen; 
+    text-align: center; 
+    width: 100%; 
+}
+
+.warning p{
+    margin-bottom:0;
+}
+
+/* Styling Content segments/project page layouts. Should simplify this when converting to a JS solution */
+
+.project-breadcrumbs{
+    margin-bottom: 0;
+    width: fit-content;
+}
+
+.project-breadcrumbs p{
+    background-color: white;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.project-sheet{
+    background-color: white;
+}
 
 .content-segment {
     width: 100%;
     margin-bottom: 10%;
+}
+
+.project-page-summary-container{
+    background-color: var(--med-yellow);
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
 }
 
 .paragraph-content-image{
