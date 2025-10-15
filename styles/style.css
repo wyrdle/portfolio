@@ -289,6 +289,11 @@ footer{
     padding: 10px;
     border-radius: 5px;
     width: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.socials i:hover{
+    background-color: var(--dark-yellow);
 }
 
 /* For any images we want with hover transition effects */
