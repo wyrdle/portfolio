@@ -7,7 +7,7 @@
 .project-container{
     height:300px;
     width: 600px;
-    background-color: blanchedalmond;
+    border-radius: 5px;
     margin: 4px 4px;
     overflow: hidden;
 }

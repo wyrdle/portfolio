@@ -1,13 +1,22 @@
 .illustration-gallery{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+    align-items: start;
     justify-content: center;
+}
+
+.illustration-column{
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .illustration-container{
     position: relative;
     overflow: hidden;
-    margin: 4px 4px;
 }
 
 .overlay {
@@ -45,6 +54,7 @@
 }
 
 .illustration-gallery-item{
-    height: 45vh;
-    width: fit-content;
+    height:100%;
+    width: 100%;
+    border-radius: 5px;
 }

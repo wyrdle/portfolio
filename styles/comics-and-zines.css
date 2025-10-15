@@ -9,6 +9,7 @@
     width: 400px;
     margin: 4px 4px;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 .comic-container a{
