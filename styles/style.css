@@ -367,6 +367,7 @@ a .homepage-comic-subpanel-contents:hover{
     font-size: 2rem;
     line-height: 2;
     z-index: 1;
+    color: var(--brown)
 }
 
 .text-box-one{
@@ -461,7 +462,7 @@ a .homepage-comic-subpanel-contents:hover{
 }
 
 .text-box-seven{
-    top: 120px;
+    top: 160px;
     width: 25%;
     text-align: center;
     line-height: 1.2;
@@ -470,12 +471,13 @@ a .homepage-comic-subpanel-contents:hover{
 }
 
 .text-box-eight{
-    top: 280px;
+    top: 210px;
     width: 25%;
     text-align: center;
     line-height: 1.2;
-    left: 725px;
+    left: 670px;
     z-index:1;
+    font-size:3rem;
 }
 
 .mail-icon{
