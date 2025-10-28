@@ -81,6 +81,14 @@ a:hover::after{
     transform: scaleX(1);
 }
 
+.data-header{
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: var(--dark-yellow);
+    font-style: italic;
+}
+
 .page-content{
         padding:3% 15% ;
 }
@@ -162,6 +170,21 @@ a:hover::after{
     padding: 10px;
 }
 
+.project-breadcrumbs a{
+    color: var(--brown);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.project-breadcrumbs a:hover{
+    color: var(--dark-yellow);
+}
+
+.project-breadcrumbs .underline{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
 .project-sheet{
     background-color: white;
     border-radius: 0 5px 5px 5px;
@@ -222,6 +245,8 @@ a:hover::after{
 .paragraph-content{
     width: 70%;
     margin-right: 1.5rem;
+    display: flex;
+    align-items: center;
 }
 
 .paragraph-content-image-alt{
@@ -259,7 +284,7 @@ a:hover::after{
 
 .image-caption{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-style: italic;
 }
 
@@ -285,12 +310,11 @@ a:hover::after{
     position: absolute;
     top: 40%;
     width: auto;
-    padding: 16px;
+    padding: 10px;
     margin-top: -50px;
-    color: white;
     font-weight: bold;
     font-size: 20px;
-    border-radius: 0 3px 3px 0;
+    border-radius: 5px;
     user-select: none;
     -webkit-user-select: none;
     background-color: var(--med-yellow);
@@ -306,9 +330,19 @@ a:hover::after{
 
 .gallery-caption-container {
     text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
+    font-style: italic;
+    background-color: var(--brown);
+    padding: 10px;
     color: white;
+}
+
+.gallery-caption-container p{
+    margin:0;
+    font-size: 1rem;
+}
+
+.slideshow-gallery-container .row{
+    background-color: var(--dark-yellow);
 }
 
 .row:after {
@@ -320,6 +354,15 @@ a:hover::after{
 .column {
     float: left;
     width: 20%;
+}
+
+.demo{
+    filter: opacity(50%);
+    transition: 0.1s ease-in-out;
+}
+
+.active, .demo:hover {
+    filter: opacity(100%);
 }
 
 .slideshow-gallery-container .column img{
