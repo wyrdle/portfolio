@@ -170,7 +170,7 @@ a:hover::after{
 
 .content-segment {
     width: 100%;
-    margin-bottom: 10%;
+    padding: 5%;
 }
 
 .project-page-summary-container{
@@ -210,6 +210,9 @@ a:hover::after{
     overflow: hidden;
     align-self: center;
     margin-right: 1.5rem;
+    display: flex;
+    flex-direction: column ; 
+    gap: 5px;
 }
 
 .paragraph-content-image img , .paragraph-content-image-alt img{
@@ -226,6 +229,9 @@ a:hover::after{
     overflow: hidden;
     align-self: center;
     margin-right: 20px;
+    display: flex;
+    flex-direction: column ; 
+    gap: 5px;
 }
 
 .paragraph-content-alt{
@@ -251,6 +257,76 @@ a:hover::after{
     margin-bottom: 1rem;
 }
 
+.image-caption{
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* styling slideshow */
+.slideshow-gallery-container{
+    position: relative;
+}
+
+.gallerySlides{
+    display: none
+}
+
+.gallerySlides img{
+    width: 100%
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: var(--med-yellow);
+}
+
+.next{
+    right:0 
+}
+
+.prev:hover, .next:hover{
+    background-color: var(--dark-yellow);
+}
+
+.gallery-caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 20%;
+}
+
+.slideshow-gallery-container .column img{
+    width: 100%
+}
+
+/* Footer styling */
 footer{
     padding: 4% ;
     background-color: var(--med-yellow);
