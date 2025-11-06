@@ -251,6 +251,8 @@ a:hover::after{
     margin-right: 1.5rem;
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .paragraph-content-image-alt{
