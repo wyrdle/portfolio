@@ -293,6 +293,11 @@ a:hover::after{
     font-style: italic;
 }
 
+/* Video content */
+.video-player iframe{
+    width:100%;
+}
+
 /* styling slideshow */
 .slideshow-gallery-container{
     position: relative;
