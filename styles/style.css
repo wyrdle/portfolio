@@ -466,7 +466,7 @@ footer{
 }
 
 .homepage-comic-panel{
-    width: 800px;
+    width: 80%;
     height: fit-content;
     margin-bottom: 20px;
 }
@@ -691,4 +691,31 @@ a .homepage-comic-subpanel-contents:hover{
 @keyframes appear {
     from {opacity:0}
     to {opacity:1}
+}
+
+/* Mobile Responsiveness */
+@media (min-width: 375px){
+    
+    .page-content{
+        padding: 3% 5%
+    }
+
+    .homepage-comic{
+        width: 100%;
+    }
+
+    .homepage-comic-subpanel{
+        width:100%;
+    }
+
+    /* All the absolute positioned panels need to be fixed! */
+
+    .footer-container{
+        font-size: 1.6rem;
+    }
+
+    .secret-bonus{
+        height:60%;
+        bottom: 15%;
+    }
 }
