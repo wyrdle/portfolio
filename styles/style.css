@@ -307,8 +307,20 @@ a:hover::after{
     margin-bottom:10px;
 }
 
-.image-row img{
+.image-row .image-fit{
     width:100%;
+}
+
+.image-row .image-halves{
+    width:50%;
+}
+
+.image-row .image-thirds{
+    width:33%;
+}
+
+.image-row .image-fourths{
+    width:25%;
 }
 
 /* Video content */
