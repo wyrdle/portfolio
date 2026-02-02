@@ -226,7 +226,7 @@ a:hover::after{
     width:60%; 
     overflow:hidden;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .splash-header img{
