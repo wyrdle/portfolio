@@ -45,6 +45,7 @@ p{
     font-size: 1.4rem;
     line-height: 1.5;
     margin-bottom: 1rem;
+    z-index: 10;
     }
 
 p.full-spread{
@@ -57,6 +58,7 @@ a.in-text{
     text-decoration-style: wavy;
     transition: 0.3s ease-in-out;
     position:relative;
+    z-index: 10;
 }
 
 a.in-text::after{
@@ -305,6 +307,7 @@ a:hover::after{
     flex-direction: row;
     gap: 10px;
     margin-bottom:10px;
+    justify-content: center;
 }
 
 .image-row .image-fit{
