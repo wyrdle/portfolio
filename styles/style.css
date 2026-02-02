@@ -323,6 +323,10 @@ a:hover::after{
     width:25%;
 }
 
+.project-image{
+    cursor: pointer;
+}
+
 /* Video content */
 .video-player iframe{
     width:100%;
