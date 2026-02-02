@@ -246,10 +246,7 @@ a:hover::after{
     display: flex;
     flex-direction: column ; 
     gap: 5px;
-}
-
-.paragraph-content-image img , .paragraph-content-image-alt img{
-    width: 100%;
+    align-items: center;
 }
 
 .paragraph-content{
@@ -269,6 +266,7 @@ a:hover::after{
     display: flex;
     flex-direction: column ; 
     gap: 5px;
+    align-items: center;
 }
 
 .paragraph-content-alt{
@@ -277,6 +275,14 @@ a:hover::after{
     flex-direction: column ; 
     justify-content: center;
     text-align: left;
+}
+
+.paragraph-content-image img , .paragraph-content-image-alt img{
+    width: 100%;
+}
+
+.paragraph-content-image img.phone-screenshot, .paragraph-content-image-alt img.phone-screenshot {
+    width:40%;
 }
 
 .flex-paragraph-content{
@@ -325,6 +331,8 @@ a:hover::after{
 .image-row .image-fourths{
     width:25%;
 }
+
+
 
 .project-image{
     cursor: pointer;
