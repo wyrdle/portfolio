@@ -157,13 +157,16 @@ a:hover::after{
 }
 
 .warning{
-    background-color: yellowgreen; 
+    background-color: #73bf51; 
     text-align: center; 
     width: 100%; 
+    display: flex;
+    justify-content: center;
 }
 
 .warning p{
     margin-bottom:0;
+    padding: 1vh 20%;
 }
 
 /* Styling Content segments/project page layouts. Should simplify this when converting to a JS solution */
